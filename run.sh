@@ -1,0 +1,1 @@
+$SPARK_HOME/bin/spark-submit --class "simspark" --master spark://192.168.0.1:7077 --driver-memory 30G --executor-memory 30G --num-executors 5 --total-executor-cores 20 target/scala-2.10/simrank_2.10-1.0.jar >>fblog.txt
